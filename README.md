@@ -31,11 +31,13 @@ III. Uma disciplina pode ser associada a múltiplos professores, o que justifica
 IV. O uso de constraints como FOREIGN KEY garante que registros referenciados existam nas tabelas originais.  
 
 **É correto o que se afirma em:**  
-A) I, II e IV, apenas.  
+A) I, II e IV, apenas.  (Correta)
 B) I e III, apenas.  
 C) II, III e IV, apenas.  
 D) I, II e III, apenas.  
 E) Todas as afirmativas estão corretas.
+
+**JUSTIFICATIVA:**  Como a releção de alunos e disciplina é vários para vários(N:N), é necessário uma tabela associativa/intermediária. A relação de professor para disciplina é de 1 para vários(1:N), um professor pode ter várias disciplinas, mas uma disciplina só é dada por professor, então faz sentido proessor ser referenciado comouma foreing key na tabela disciplinas. A 3 ta errada por conta explicação da 2. A 4 está correta, quando você usa foreing key, significa que o dados já existem em outra tabela.
 
 ### QUESTÃO 2 – Arquitetura Cliente-Servidor com MVC
 No desenvolvimento de uma aplicação web baseada em Node.js e Express, o time de desenvolvimento decidiu adotar o padrão arquitetural MVC. A aplicação deve permitir que o cliente interaja via navegador, enviando requisições HTTP para o servidor, que responderá com páginas dinâmicas.
