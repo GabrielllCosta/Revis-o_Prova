@@ -48,11 +48,13 @@ III. A View representa a saída visual da aplicação e é gerada a partir das i
 IV. Separar lógica de negócio e interface facilita a manutenção e reuso de código.  
 
 **É correto o que se afirma em:**  
-A) I, III e IV, apenas.  
+A) I, III e IV, apenas.  (Correta)
 B) I e II, apenas.  
 C) III e IV, apenas.  
 D) II, III e IV, apenas.  
 E) Todas as afirmativas estão corretas.
+
+**JUSTIFICATIVA:** O controller serve como intermediário ntre a aplicação visual e o banco de dados/models, então que recebe  a requisição e repassa isso para o models, onde o models devolve a resposta requisitada. Não há essa interação justamente porque o intermediário deles é o controller. A afirmativa 3 está correta, o controller passa a informação e o view interpreta isso e deixa visual para o usuário. A arquitetura MVC é pensada justamente para que o código seja fácil de se manter e de se usar.
 
 ### QUESTÃO 3 – Banco de Dados Não Relacionais
 Uma startup desenvolvendo uma aplicação de redes sociais decidiu utilizar um banco de dados do tipo NoSQL para armazenar informações de perfis de usuários, postagens e relações de amizade. A escolha se deu pela flexibilidade de estrutura e pela necessidade de escalar horizontalmente a aplicação com facilidade.
