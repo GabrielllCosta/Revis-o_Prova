@@ -65,11 +65,13 @@ III. A consistência eventual é uma característica típica dos bancos NoSQL, d
 IV. Em um banco do tipo chave-valor, cada registro precisa estar normalizado em três formas normais.  
 
 **É correto o que se afirma em:**  
-A) I, II e III, apenas.  
+A) I, II e III, apenas.  (Correto)
 B) I e IV, apenas.  
 C) II e III, apenas.  
 D) I, III e IV, apenas.  
 E) Todas as afirmativas estão corretas.
+
+
 
 ### QUESTÃO 4 – Requisições Assíncronas com Controllers
 Em uma aplicação que utiliza o framework Express.js, o aluno foi encarregado de implementar a lógica do backend. O sistema recebe requisições assíncronas do frontend utilizando a Fetch API e responde com dados obtidos de um banco PostgreSQL. A lógica de cada rota é implementada em controladores assíncronos.
@@ -80,11 +82,13 @@ III. Controllers devem concentrar a lógica de negócio e persistência para sim
 IV. As funções assíncronas exigem tratamento de erros com try/catch para evitar travamentos na aplicação.  
 
 **É correto o que se afirma em:**  
-A) I, II e IV, apenas.  
+A) I, II e IV, apenas.  (Correta)
 B) II e III, apenas.  
 C) I, III e IV, apenas.  
 D) I, II e III, apenas.  
 E) Todas as afirmativas estão corretas.
+
+**JUSTIFICATIVA:** NO padrão MVC o controller não simplica o projeto contendo a lógica de de negócio e a persistência.
 
 ### QUESTÃO 5 – Anatomia de uma Aplicação em Camadas
 Um grupo de desenvolvedores está projetando uma aplicação web corporativa e decidiu utilizar uma arquitetura em camadas para garantir a manutenibilidade e a escalabilidade do sistema. O sistema será dividido entre a camada de apresentação (frontend), a camada de negócios (backend) e a camada de dados (banco de dados). Cada camada terá responsabilidades bem definidas.
@@ -99,7 +103,9 @@ A) I, II e III, apenas.
 B) II, III e IV, apenas.  
 C) I, III e IV, apenas.  
 D) I, II e IV, apenas.  
-E) Todas as afirmativas estão corretas.
+E) Todas as afirmativas estão corretas. (Correta)
+
+
 
 ### QUESTÃO 6 – Paradigmas de Programação
 Durante uma aula sobre linguagens de programação, foram apresentados diversos paradigmas, como o imperativo, o funcional e o orientado a objetos. Cada paradigma adota uma forma distinta de modelar o comportamento do sistema e manipular os dados.
@@ -110,11 +116,13 @@ III. A programação imperativa descreve a lógica do programa por meio de coman
 IV. No paradigma funcional, o uso de loops tradicionais como for e while é incentivado em detrimento de funções como map e reduce.  
 
 **É correto o que se afirma em:**  
-A) I, II e III, apenas.  
+A) I, II e III, apenas.  (Correta)
 B) II e IV, apenas.  
 C) I, III e IV, apenas.  
 D) I, II e IV, apenas.  
 E) Todas as afirmativas estão corretas.
+
+
 
 ### QUESTÃO 7 – Setup de Ambiente com Node.js, VSCode e Supabase
 Ao iniciar o desenvolvimento de um projeto fullstack, uma equipe de estudantes realizou a instalação do Node.js, configurou o editor VSCode com extensões úteis, e utilizou o Supabase como backend. O objetivo era integrar de forma eficiente o frontend com um banco relacional escalável.
@@ -129,7 +137,7 @@ A) I, II e IV, apenas.
 B) I, II e III, apenas.  
 C) II, III e IV, apenas.  
 D) I, III e IV, apenas.  
-E) Todas as afirmativas estão corretas.
+E) Todas as afirmativas estão corretas. (Correta)
 
 ### QUESTÃO 8 – Chave Primária e Estrangeira
 Em uma base de dados relacional, o uso adequado de chaves primárias e estrangeiras é essencial para manter a integridade dos dados e garantir que os relacionamentos entre as tabelas sejam consistentes. Um analista júnior precisa revisar o modelo lógico antes da implementação.
@@ -140,7 +148,7 @@ III. O uso de chaves estrangeiras ajuda a evitar inserções de dados inválidos
 IV. Uma tabela pode conter múltiplas chaves primárias, desde que em colunas diferentes.  
 
 **É correto o que se afirma em:**  
-A) I, II e III, apenas.  
+A) I, II e III, apenas.  (Correta)
 B) I e IV, apenas.  
 C) II e III, apenas.  
 D) I, III e IV, apenas.  
@@ -155,7 +163,7 @@ III. O Controller centraliza a lógica de negócio e se comunica tanto com o Mod
 IV. É uma boa prática permitir que a View invoque diretamente métodos do banco de dados para maior eficiência.  
 
 **É correto o que se afirma em:**  
-A) I, II e III, apenas.  
+A) I, II e III, apenas.  (correta)
 B) II e IV, apenas.  
 C) I, III e IV, apenas.  
 D) I, II e IV, apenas.  
@@ -170,7 +178,7 @@ III. A marcação correta de cabeçalhos hierárquicos ajuda na navegação de l
 IV. Elementos semânticos são ignorados por mecanismos de busca e servem apenas para estilização visual.  
 
 **É correto o que se afirma em:**  
-A) I, II e III, apenas.  
+A) I, II e III, apenas.  (correta)
 B) II e IV, apenas.  
 C) I, III e IV, apenas.  
 D) I, II e IV, apenas.  
